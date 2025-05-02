@@ -1,0 +1,403 @@
+<html>
+<head>
+<title>
+</title>
+<meta charset="uft-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet"
+type="text/css"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  />
+
+<style>
+ .bg {
+            background-image: url('apple 1.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            height: 500px; /* Full height of viewport */      
+  }
+
+.bg p {
+font-size:18px;
+font-weight:bold;
+         
+}
+   
+
+.top:hover{
+color:yellow;
+ font-size:19px;
+}   
+.top{
+text-align:center
+} 
+.content {
+    width: 1200;
+    height: auto;
+    margin: auto;
+    color: white;
+    position:relative;
+    
+}
+.content .par {
+     padding-left:20px;
+     padding-bottom: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 1.2px;
+     line-height: 30px;
+
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 10px;
+    margin: 3%;
+    letter-spacing: 2px;
+    }
+    .button2 {
+    background-color: rgb(66, 174, 240);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    padding: 17px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button2:hover {
+    box-shadow: 0px 0px 12px 4px rgba(223, 79, 31, 0.74);
+}
+
+/* menu */
+ .navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+}
+/* footer */
+.footer {
+line-height: 1.5;
+font-family: "Poppins", sans-serif;
+}
+
+.footer {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+max-width: 1170px;
+margin: auto;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+.footer {
+background-color: #24262b;
+padding: 70px 0;
+}
+.footer-col {
+width: 25%;
+padding: 0 15px;
+}
+
+.footer-col h4 {
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+
+.footer-col h4::before {
+content: " ";
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+color: #ffffff;
+padding-left: 8px;
+}
+
+.footer-col .social-links a {
+display: inline-block;
+height: 25px;
+width: 25px;
+background-color: rgba(255, 255, 255, 0.2);
+margin: 15 15px 15px 15;
+text-align: center;
+line-height: center;
+line-height: 60px;
+border-radius: 80%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+color: #24262b;
+background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+.footer-col {
+width: 50%;
+margin-bottom: 30px;
+}
+}
+
+@media (max-width: 574px) {
+.footer-col {
+width: 100%;
+}
+}
+
+/* product*/
+* {
+   box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.button {
+border: none;
+ color: rgb(224, 223, 229);
+ background-color: yellow;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button a{
+  color: blue;
+  background-color: yellow;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 25px;
+  text-align: center;
+  background-color:white;
+  color: red;
+  box-shadow: 0px 0px 12px 4px rgb(223, 79,31,0.74);
+}
+.row {margin: 0 -10px;}
+
+
+/* Float four columns side by side */
+.column {
+   float:left;
+   width: 33%;
+   padding: 0 5px;
+}
+
+</style>
+</head>
+<body>
+ <nav class="navbar">
+        <div class="logo" >Apple store</div>
+        <ul class="nav-links">
+            <li><a href="home page 2.html">Product </a></li>
+            <li><a href="product page.html">Product </a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          
+        </ul>
+        
+    </nav>
+
+    <div class="bg">
+      <div class ="bg1"><br>
+        <div class="content">
+         <br><br><br> <h1 style="color:floralwhite;">APPLE Store</h1> <br><span>&nbsp; &nbsp;<h4><i>Digital Store</i> </h4>
+          <br><br><br><br><h2 style="color:#24262b;"></h2>
+            <p class="par" style="color:white;">Apple Gadgets is a One-Stop Tech Shop that offers Tech Enthusiasts authentic Smartphones,
+                 Gadgets & Accessories from renowned brands so they can have first-hand experience with the real thing,<br>
+                 aim to achieve the highest customer satisfaction</p>
+
+                              
+              <button class="button2"><a href="login page1.html">Log in</a></button>
+        </div>
+        </div>
+   </div>
+<div class="top"><h1> Top Product </h1></div>
+
+ <div class="row">
+   
+    
+ 
+   
+        <div class="column">
+           <div class="card">
+             <img src="images2.jpg" style=width:200px height="200px">
+            <p>iPhone - Apple (IN)</p>
+            <p>Rs. ₹5000.00-₹67500.00
+            </p>
+            <br>
+     
+     
+            <button class="button"><a href="order page1.html"> Order Now</a></button>
+            </a>
+           </div>
+         </div>
+     
+    <div class="column">
+          <div class="card">
+          
+          <img src="images3.jpg" style=width:200px height="200px">
+            
+           <p>Apple AirPods 4 Wireless Earbuds, Bluetooth</p>
+           <p>Rs.12,249.00 INR</p><br>
+   
+    
+           <button class="button"><a href="order page1.html">Order Now</a></button>
+    </a>
+          </div>
+        </div>
+    
+    
+    <div class="column">
+          <div class="card">
+           <img src="image4.jpg" style=width:200px height="200px">
+           <p>Apple Watch Series 10</p>
+           <p>Rs.₹46900.00</p><br>
+   
+    
+           <button class="button"><a href="order page1.html">Order Now</a></button>
+           </a>
+          </div>
+        </div>
+        </div>
+        <div>
+          
+          <footer class="footer">
+          <div class="container">
+          <div class="row">
+          <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">our services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          </ul>
+          </div>
+          
+          <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+          </ul>
+          </div>
+          
+          <div class="footer-col">
+          <h4>online shop </h4>
+          <ul>
+          <li><a href="#">phone</a></li>
+          <li><a href="#">earpods</a></li>
+          <li><a href="#">watch</a></li>
+          <li><a href="#">homepod</a></li>
+          </ul>
+          </div>
+          
+          <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          </div>
+          <div  style= "background-color: black; color: white;">
+           <center><p class="p">Copyright-2025 All Rights Reserved.Apple store.</p></center> </div>
+          </div>
+          </div>
+                    </footer>
+
+</body>
+</html>
